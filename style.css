@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 300px 400px 300px 500px;
+    grid-row-gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+}
+
+.page > .sec1 {
+    width: 50%;
+} 
+
+.sec1 > .container {
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .sec1 > .container {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.page > .sec2 {
+    width: 50%;
+}
+
+.text {
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.circlezone {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.subcircle {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.border {
+    position: absolute;
+    height: 30px;
+    transform: rotate(180deg);
+    border: 1px dashed #FF6433;
+    margin-top: 35px;
+    margin-left: 14px;
+}
+
+.li1 {
+    display: flex;
+}
+
+.subtext {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.listitem {
+    margin: 20px;
+}
+
+.listtext {
+    padding-left: 20px;
+    margin-top: 7px;
+}
+
+.pagetwo {
+    background: #F2F2F2;
+    padding: 20px;
+}
+
+.sec3 > * {
+    text-align: center;
+}
+
+header{
+    font-size: 1rem;
+}
+
+.secondheader {
+    font-size: 1.8rem;
+}
+
+.sec4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.subsec {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 150px;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 3px;
+    padding: 5px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box > p {
+    font-size: 0.8rem;
+}
+
+.image {
+    padding: 10px;
+}
+
+#box {
+    background-color: #FF6433;
+}
+
+img {
+    width: 15%;
+}
+
+.learnabout {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 330px;
+    margin-top: 7px;
+}
+
+.learnabout > p {
+    font-size: 0.7rem;
+}
+
+.Lbtext {
+    margin-right: 7px;
+}
+
+.Lbtext a {
+    text-decoration: none;
+}
+
+.line {
+    align-self: center;
+    width: 25px;
+    height: 5px;
+}
+
+.sec5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image2 {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 300px;
+}
+
+.image3 {
+    display: flex;
+    justify-self: flex-end;
+    width: 60%;
+    height: 300px;
+    position: relative;
+}
+
+.carimage {
+    width: 600%;
+}
+
+.engineimage {
+    width: 100%;
+}
+
+.textsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #FF6433;
+    width: 60%;
+    max-height: 300px;
+    margin-left: 200px;
+}
+
+.textsection > p {
+    color: white;
+    font-size: 2rem;
+}
+
+.sec6 {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    background-color: #F2F2F2;
+}
+
+.boldnum {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.boldnum > h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 50px;
+    color: #661CE7;
+}
+
+.pagefour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sec7 {
+    text-align: center;
+}
+
+.sec8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgone {
+    width: 70%;
+}
+
+
+
